@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Profile Link</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      padding: 30px;
+      width: 320px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .profile-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+
+    .profile-pic {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0078d4;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 22px;
+      margin: 10px 0 5px;
+    }
+
+    p {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .social-btn {
+      display: block;
+      margin: 8px auto;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: background 0.3s ease;
+      width: 80%;
+    }
+
+    .linkedin { background-color: #0078d4; }
+    .website { background-color: #333; }
+    .email { background-color: #28a745; }
+
+    .social-btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="Santosh_Chaurasiya.jpeg" alt="Profile" class="profile-pic">
+    <h2>Santosh Chaurasiya</h2>
+    <p>Editor -Koylanchal Samachar</p>
+
+    <a href="YOUR_LINKEDIN_URL" class="social-btn linkedin">Connect on Facebook Profile</a>
+    <a href="https://koyalanchalnews.in/" class="social-btn website">Visit My Website</a>
+    <a href="mailto:YOUR_EMAIL" class="social-btn email">Email Me</a>
+  </div>
+</body>
+</html>
